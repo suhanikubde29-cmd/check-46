@@ -93,7 +93,7 @@ function runHumanCheck() {
 
 /* ================== PAGE TRANSITION ================== */
 var pageLoadTime = Date.now();
-var SKELETON_MS = 1500;
+var SKELETON_MS = 3500;
 
 function goToNextPage(url) {
   var loadingEl = document.getElementById('loadingState');
